@@ -1,0 +1,158 @@
+layout: {zmk_keyboard: totem}
+layers:
+  default:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: A, h: LSHFT}
+  - {t: S, h: LCTRL}
+  - {t: D, h: LALT}
+  - {t: F, h: LGUI}
+  - G
+  - H
+  - {t: J, h: RGUI}
+  - {t: K, h: RALT}
+  - {t: L, h: RCTRL}
+  - {t: ;, h: RSHFT}
+  - ESCAPE
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - RSHFT
+  - LGUI
+  - {t: TAB, h: lower}
+  - SPACE
+  - ENTER
+  - {t: BACKSPACE, h: raise}
+  - '-'
+  lower:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - UP
+  - {t: ▽, type: trans}
+  - (
+  - )
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - LSHFT
+  - LEFT
+  - DOWN
+  - RIGHT
+  - '['
+  - ']'
+  - {t: '4', h: RGUI}
+  - {t: '5', h: RALT}
+  - {t: '6', h: RCTRL}
+  - {t: '-', h: RSHFT}
+  - {t: ▽, type: trans}
+  - LGUI
+  - '-'
+  - {t: ▽, type: trans}
+  - +
+  - '{'
+  - '}'
+  - '1'
+  - '2'
+  - '3'
+  - '*'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - adjust
+  - {t: ▽, type: trans}
+  raise:
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - '`'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - _
+  - '='
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '|'
+  - '~'
+  - {t: ▽, type: trans}
+  - adjust
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  adjust:
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Gui+Sft+Ctl+4
+  - ''
+  - VOL DN
+  - VOL UP
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BRI DN
+  - BRI UP
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - {type: held}
+  - ''
