@@ -1,0 +1,16 @@
+manifest:
+  remotes:
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+    - name: bildermankawasaki
+      url-base: https://github.com/BildermanKawasaki
+  projects:
+    - name: zmk
+      remote: zmkfirmware
+      revision: v0.3
+      import: app/west.yml
+    - name: zmk-keyboard-TOTEM
+      remote: bildermankawasaki
+      revision: main
+  self:
+    path: config
